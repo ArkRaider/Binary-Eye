@@ -1,0 +1,19 @@
+# Node dependencies
+node_modules/
+dist/
+
+# C++ Build files (CRITICAL: Don't push these)
+engine/build/
+engine/bin/
+*.exe
+*.dll
+*.pdb
+*.obj
+
+# Uploads & Secrets
+server/uploads/*
+.env
+
+# OS files
+.DS_Store
+Thumbs.db
