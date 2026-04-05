@@ -45,6 +45,8 @@ Interactive Table: A searchable list of all imported DLLs.
 
 Hex Preview: A read-only view of the first 256 bytes.
 
+*the user needs to compile the engine locally to make the app work. This proves you understand Build Pipelines*
+
 4. Security Constraints (Crucial)
 Non-Execution Policy: The backend must never chmod +x the uploaded file.
 
